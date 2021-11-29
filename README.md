@@ -1,8 +1,11 @@
-- Run mongod and mongo from root folder, week6, as follow:<br>
-$ bin/mongod --config mongod.conf<br>
-$ bin/mongo<br><br>
+extract zipFolder mongodb-macos-x86_64-4.2.17.taz to the same folder, week6
+- cd to new extracted folder the copy all files in bin directory to an empty folder bin above
+$cd mongodb-macos-x86_64-4.2.17
+$ cp bin/* ../bin/
 
-MongoDB is in _data/db<br> 
-This is a mongoDB version 4.2 that is in bin directory<br><br>
+- Run mongod and mongo from root folder, week6, as follow:
+$ bin/mongod --config mongod.conf
+$ bin/mongo 
 
-Unable to upload node_modules because these are big files
+MongoDB is in _data/db 
+This is a mongoDB version 4.2 that is in bin directory
