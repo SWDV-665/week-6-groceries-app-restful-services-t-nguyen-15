@@ -1,7 +1,7 @@
-extract zipFolder mongodb-macos-x86_64-4.2.17.taz to the same folder, week6
-- cd to new extracted folder the copy all files in bin directory to an empty folder bin above
-$cd mongodb-macos-x86_64-4.2.17
-$ cp bin/* ../bin/
+extract zipFolder mongodb-macos-x86_64-4.2.17.taz to the same folder, week6<br>
+- cd to new extracted folder the copy all files in bin directory to an empty folder bin above<br>
+$cd mongodb-macos-x86_64-4.2.17<br>
+$ cp bin/* ../bin/<br><br>
 
 - Run mongod and mongo from root folder, week6, as follow:
 $ bin/mongod --config mongod.conf
